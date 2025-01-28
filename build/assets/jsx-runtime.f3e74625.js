@@ -1,4 +1,4 @@
-import { r as react } from './index.6098624d.js';
+import { r as react } from './index.2cd9afc7.js';
 
 var jsxRuntime = {exports: {}};
 
@@ -23,27 +23,6 @@ function q(c,a,g){var b,d={},e=null,h=null;void 0!==g&&(e=""+g);void 0!==a.key&&
 	}
 } (jsxRuntime));
 
-const Fragment = jsxRuntime.exports.Fragment;
 const jsx = jsxRuntime.exports.jsx;
-const jsxs = jsxRuntime.exports.jsxs;
 
-const Page = () => {
-  return /* @__PURE__ */ jsx("div", {
-    style: {
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      width: "100%",
-      height: "100vh"
-    },
-    children: /* @__PURE__ */ jsx("h1", {
-      style: {
-        fontSize: "40px",
-        color: "tomato"
-      },
-      children: "Hello microfrontend !!!"
-    })
-  });
-};
-
-export { Fragment as F, jsxs as a, Page as default, jsx as j };
+export { jsx as j };
